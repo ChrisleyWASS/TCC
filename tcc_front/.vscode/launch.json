@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "type": "pwa-chrome",
+        //     "request": "launch",
+        //     "name": "Launch Chrome against localhost",
+        //     "url": "http://localhost:8082",
+        //     "webRoot": "${workspaceFolder}"
+        // },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "DEBUG: chrome incognito",
+            "url": "http://localhost:8082",
+            "sourceMaps": true,
+            "webRoot": "${workspaceFolder}/src",
+            "userDataDir": "${workspaceRoot}/.vscode/chrome",
+            "runtimeArgs": ["--incognito"],
+            "sourceMapPathOverrides": {
+              "webpack:///src/*": "${webRoot}/*"
+            }
+          },
+    ]
+}

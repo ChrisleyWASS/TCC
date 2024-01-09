@@ -1,0 +1,26 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+// .card-header:not(.content-center) > .c-icon:first-child {
+//   margin-right: 0.1rem;
+//   margin-top: 0.1rem;
+//   vertical-align: top;
+//   width: 1.2rem;
+//   height: 1.2rem;
+//   font-size: 1.2rem;
+// }
+
+// $my-dark: #3e4147ff;   Para: fundo, texto em fundo colorido
+// $my-text: #ced4da;     Para: texto em fundo preto
+// $my-orange: #f39237ff; Para: títulos destacados, bordas, linhas e divisórias
+
+// $my-ciano: #2bd6d4ff;  Para: Ícnes, numeros e destaques
+// $my-purple: #8b80f9ff; Para: links, destaques 2
+// $my-dark-purple: #3c1e90ff;
+
